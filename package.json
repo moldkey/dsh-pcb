@@ -1,0 +1,33 @@
+{
+  "name": "dsh-pcb",
+  "version": "0.1.0",
+  "description": "PCB 工艺检查与报价参考：线宽/孔径/板边能力，按尺寸层数数量估单价",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "pcb",
+    "电路板",
+    "dfm",
+    "quote"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-pcb.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
